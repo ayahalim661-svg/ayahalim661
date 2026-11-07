@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Ma Galerie - Aya Halim</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Segoe UI', sans-serif; background:#fdf6f9 url('https://www.transparenttextures.com/patterns/moroccan.png'); }
+.header { background:#1a3a4a; padding:15px; text-align:center; }
+.header a { color:white; margin:0 18px; text-decoration:none; font-weight:600; }
+.header a.active { border-bottom:2px solid white; padding-bottom:3px; }
+.card-box { max-width:900px; margin:25px auto; background:white; border-radius:18px; padding:25px; box-shadow:0 8px 30px rgba(0,0,0,0.1); }
+h1 { text-align:center; color:#4c1d95; }
+.subtitle { text-align:center; color:#555; margin:10px 0 20px; }
+.grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+.small-card { border-radius:12px; overflow:hidden; border:1px solid #eee; background:#fffbeb; }
+.small-card .top { background:#fef3c7; padding:8px; text-align:center; font-weight:bold; font-size:14px; }
+.small-card img { width:100%; height:90px; object-fit:cover; display:block; }
+.small-card .bot { background:white; padding:8px; text-align:center; font-weight:bold; }
+.big-title { text-align:center; color:#4c1d95; font-size:22px; margin:35px 0 15px; font-weight:bold; }
+.big-card { max-width:900px; margin:0 auto 40px; border:6px solid #4c1d95; border-radius:16px; overflow:hidden; background:white; box-shadow:0 10px 40px rgba(76,29,149,0.2); }
+.big-card img { width:100%; height:450px; object-fit:cover; display:block; }
+.big-card .info { padding:15px; background:#f9f5ff; border-top:1px solid #e9d5ff; }
+footer { background:#1a3a4a; color:white; text-align:center; padding:12px; font-size:14px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="index.html">Accueil</a>
+  <a href="rabat.html">Rabat</a>
+  <a href="loisirs.html">Loisirs</a>
+  <a href="galerie.html" class="active">Galerie</a>
+</div>
+
+<div class="card-box">
+  <h1>rabat et mes dessin</h1>
+  <p class="subtitle">les photos de Rabat et les dessin à la main</p>
+
+  <div class="grid">
+    <div class="small-card">
+      <div class="top">bab Oudayas</div>
+      <img src="images/bab Oudayas.jpg" alt="Bab Oudayas">
+      <div class="bot">Bab Oudayas - Kasbah</div>
+    </div>
+    <div class="small-card">
+      <div class="top">tour hassan</div>
+      <img src="images/images tour hassan.jpg" alt="Tour Hassan">
+      <div class="bot">Tour Hassan</div>
+    </div>
+    <div class="small-card">
+      <div class="top">bateau Bouregreg</div>
+      <img src="images/bateau Bouregreg.jpg" alt="Bateau">
+      <div class="bot">Bateau à Bouregreg</div>
+    </div>
+    <div class="small-card">
+      <div class="top">theatre rabat</div>
+      <img src="images/theatre rabat.jpg" alt="Theatre">
+      <div class="bot">Théâtre de Rabat</div>
+    </div>
+  </div>
+</div>
+
+<div class="big-title">✦ Photos réelles + Dessins ✦</div>
+
+<div class="big-card">
+  <img src="images/WhatsApp Image 2026-11-03 at 2.49.42 PM (1).jpeg" alt="Mon grand dessin - Aya Halim">
+  <div class="info">
+    <div style="display:flex; justify-content:space-between;">
+      <b>Portrait au crayon - Jeune fille & son cheval</b>
+      <span style="font-size:12px; color:#666;">Dessin original à la main • 2026</span>
+    </div>
+    <p style="font-size:12px; margin-top:8px; color:#555;">
+      Ce dessin est réalisé entièrement au crayon graphite sur papier, inspiré par les liens entre la culture marocaine et la beauté des paysages de Rabat. — par Aya Halim<br>
+      Technique: Crayon graphite sur papier • Format: A3 - 2026
+    </p>
+  </div>
+</div>
+
+<footer>2026 Aya Halim - Galerie avec mes dessins - Rabat, Maroc - Portfolio artistique</footer>
+
+</body>
+</html>
